@@ -73,4 +73,5 @@ nav ul li a {
 .container h1,p {
     width: 80%;
     margin: auto;
+    text-align: justify;
 }
