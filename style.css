@@ -33,12 +33,23 @@ nav {
 nav ul li {
     display: inline-block;
     list-style: none;
+    padding-right: 15px;
 }
+
+/*li {
+  background-color: #ff0000;
+}*/
+
+li:hover {
+ background-color:#ccc; /*untuk ngasi effek ganti warna background pas mouse lewat*/
+}
+
 nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 25px;
     font-family: arial;
+    font-weight: bold;
 }
 
 .container {
